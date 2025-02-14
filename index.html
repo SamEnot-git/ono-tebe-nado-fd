@@ -21,13 +21,14 @@
       <a class="logo-black">
         <img class="img-black" src="./images/logo-black.svg" alt="Логотип проекта">
       </a>
-
-      <address>
-        <a href="tel:+99995555555">+9 999 555 5555</a>
-        <a href=" mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263-</p>
-        <p>265, Амстердам</p>
-      </address>
+      <div class="header-address">
+        <address class="contact-info">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-</p>
+          <p>265, Амстердам</p>
+        </address>
+      </div>
     </header>
 
     <main>
@@ -52,6 +53,7 @@
 
         <ul class="card">
           <li class="lot card-lot-film">
+            <div class="overlay"></div>
             <a href="#" class="lot-link">
               <article class="frame white">
                 <h3 class="lot-title upper-text">
@@ -67,6 +69,7 @@
           </li>
 
           <li class="lot card-lot-book">
+            <div class="overlay"></div>
             <a href="#" class="lot-link">
               <article class="frame white">
                 <h3 class="lot-title upper-text">
@@ -85,6 +88,7 @@
           </li>
 
           <li class="lot card-lot-art">
+            <div class="overlay"></div>
             <a href="#" class="lot-link">
               <article class="frame white">
                 <h3 class="lot-title upper-text">
@@ -136,12 +140,12 @@
 
     <footer class="footer general">
       <div class="footer-address">
-        <ul class="no-dots">
-          <li><a href="tel:+99995555555">+9 999 555 5555</a></li>
-          <li><a href=" mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-          <li>наб. Принсенграхт 263-265,</li>
-          <li>Амстердам</li>
-        </ul>
+        <address class="contact-info">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-265,</p>
+          <p>Амстердам</p>
+        </address>
       </div>
 
       <nav class="menu-foot">
@@ -165,8 +169,7 @@
         </li>
         <li>
           <a href="#">
-            <img
-              class="icon" src="./images/pinterest.svg" alt="Соцсети pinterest">
+            <img class="icon" src="./images/pinterest.svg" alt="Соцсети pinterest">
           </a>
         </li>
       </ul>
